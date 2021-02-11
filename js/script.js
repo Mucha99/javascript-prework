@@ -70,4 +70,4 @@ let playerMove = getMoveName(playerInput);
 printMessage("Twój ruch to: " + playerMove);
 
 // wynik gry
-printMessage("wynik gry:");
+displayResult(computerMove, playerMove);
